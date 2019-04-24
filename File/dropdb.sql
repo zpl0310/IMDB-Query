@@ -1,0 +1,21 @@
+DROP INDEX MovieYearIndex;
+DROP INDEX MovieidUserTagIndex;
+DROP INDEX TagidUserTagIndex;
+DROP INDEX UseridUserTagIndex;
+DROP INDEX MovieGenreIndex;
+DROP INDEX MovieCountryIndex;
+DROP INDEX TagValueIndex;
+DROP INDEX ActorNameIndex;
+DROP INDEX DirectorNameIndex;
+DROP INDEX MidMovieTagIndex;
+DROP INDEX TidMovieTagIndex;
+DROP INDEX TWeightMovieTagIndex;
+
+DROP TABLE Movie_tags;
+DROP TABLE Movie_genres;
+DROP TABLE Movie_countries;
+DROP TABLE Actors;
+DROP TABLE Directors;
+DROP TABLE Usertagmovies;
+DROP TABLE Tags;
+DROP TABLE Movies;
